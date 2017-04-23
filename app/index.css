@@ -3,9 +3,13 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+ul {
+    padding: 0;
+}
+
 .container {
     padding: 20px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -25,4 +29,34 @@ body {
 
 .currentSelect {
     min-width: 100%;
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.popular-rank {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.space-list-items {
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
 }
